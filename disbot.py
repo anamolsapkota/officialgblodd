@@ -18,9 +18,6 @@ from discord import Permissions
 Client = discord.Client()
 bot = commands.Bot(command_prefix=('echo ', '$'),
           description= 'Hi I am **Echo**!\n\n**Echo** can talk to you!\nIt greets new users.\n\n**Discord Support Server**__\nhttps://discord.gg/SfEVnnn')
-                   
-#bot.remove_command('help')
-bot.load_extension('cog')
 
 start_time = time.time()
 starttime2 = time.ctime(int(time.time()))
